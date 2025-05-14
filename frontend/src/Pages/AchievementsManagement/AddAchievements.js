@@ -179,7 +179,7 @@ function AddAchievements() {
             </div>
             
             <div className="form-group">
-              <label className="form-label" style={{ color: '#8D6E63' }}>Category</label>
+              <label className="form-label" style={{ color: '#8D6E64' }}>Category</label>
               <select
                 className="form-select"
                 style={{
