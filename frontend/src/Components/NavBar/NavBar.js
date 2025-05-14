@@ -120,7 +120,7 @@ function NavBar() {
                             {currentPath === '/allAchievements' ? 
                                 <IoTrophy className="sleek-icon" /> : 
                                 <IoTrophyOutline className="sleek-icon" />}
-                            <span>Achievement</span>
+                            <span>Achievements</span>
                         </li>
                     </ul>
                 </nav>
