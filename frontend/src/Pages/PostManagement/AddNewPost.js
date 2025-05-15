@@ -106,7 +106,7 @@ function AddNewPost() {
               <input
                 className="form-input"
                 style={{
-                  border: '1px solid #C5E1A0',
+                  border: '1px solid #C5E1A5',
                   color: '#8D6E63'
                 }}
                 type="text"
