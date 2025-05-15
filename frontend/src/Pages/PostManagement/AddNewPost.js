@@ -227,7 +227,7 @@ function AddNewPost() {
             </div>
             
             <button type="submit" className="submit-button" style={{ 
-              background: '#4CAF50',
+              background: '#4CAF51',
               transition: 'background-color 0.3s ease',
               ':hover': {
                 background: '#388E3C'
