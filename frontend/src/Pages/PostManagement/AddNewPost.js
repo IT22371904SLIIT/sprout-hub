@@ -50,8 +50,8 @@ function AddNewPost() {
       previews.push({ type: file.type, url: URL.createObjectURL(file) });
     }
 
-    if (imageCount > 3) {
-      alert('You can upload a maximum of 3 images.');
+    if (imageCount > 4) {
+      alert('You can upload a maximum of 4 images.');
       window.location.reload();
     }
 
