@@ -70,7 +70,7 @@ function MyAchievements() {
             bottom: '30px',
             right: '30px',
             width: '60px',
-            height: '61px',
+            height: '60px',
             borderRadius: '50%',
             backgroundColor: '#4CAF50',
             display: 'flex',
@@ -92,7 +92,7 @@ function MyAchievements() {
           {filteredData.length === 0 ? (
             <div className="empty-state" style={{ color: '#8D6E63' }}>
               <div className="empty-icon"></div>
-              <h3>No achievements found</h3>
+              <h3>No achievement found</h3>
               <p>Create a new achievement to share your accomplishments</p>
               <button 
                 className="primary-button" 
