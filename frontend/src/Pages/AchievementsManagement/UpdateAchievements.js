@@ -178,7 +178,7 @@ function UpdateAchievements() {
                 <option value="Street Food">Organic Fertilizer</option>
                 <option value="One-Pot Meals">Inorganic Fertilizer</option>
                 <option value="Meal Prep / Batch Cooking">Compost</option>
-                <option value="Budget-Friendly">Manure</option>
+                <option value="Budget-Friendly">Plants</option>
                 <option value="Kid-Friendly">Green Manure</option>
                 <option value="Healthy Recipes">Biofertilizer</option>
                 <option value="Comfort Food">Nitrogen Fertilizer</option>
