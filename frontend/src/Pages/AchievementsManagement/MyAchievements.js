@@ -93,7 +93,7 @@ function MyAchievements() {
             <div className="empty-state" style={{ color: '#8D6E63' }}>
               <div className="empty-icon"></div>
               <h3>No achievement found</h3>
-              <p>Create a new achievement to share your accomplishments</p>
+              <p>Create a new achievement for share your accomplishments</p>
               <button 
                 className="primary-button" 
                 style={{ 
