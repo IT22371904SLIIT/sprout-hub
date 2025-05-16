@@ -194,7 +194,7 @@ function AddAchievements() {
      <option value="" disabled>Select Category</option>
                 <option value="Street Food">Organic Fertilizer</option>
                 <option value="One-Pot Meals">Inorganic Fertilizer</option>
-                <option value="Meal Prep / Batch Cooking">Plants</option>
+                <option value="Meal Prep / Batch Cooking">Compost</option>
                 <option value="Budget-Friendly">Manure</option>
                 <option value="Kid-Friendly">Green Manure</option>
                 <option value="Healthy Recipes">Biofertilizer</option>
