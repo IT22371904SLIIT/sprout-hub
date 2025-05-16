@@ -70,7 +70,7 @@ function MyAchievements() {
             bottom: '30px',
             right: '30px',
             width: '60px',
-            height: '60px',
+            height: '61px',
             borderRadius: '50%',
             backgroundColor: '#4CAF50',
             display: 'flex',
