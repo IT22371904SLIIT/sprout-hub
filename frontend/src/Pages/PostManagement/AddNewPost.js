@@ -67,7 +67,7 @@ function AddNewPost() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const formData = new FormData();
-    formData.append('IDuser', userID);
+    formData.append('userID', userID);
     formData.append('title', title);
     formData.append('description', description);
     formData.append('category', categories);
