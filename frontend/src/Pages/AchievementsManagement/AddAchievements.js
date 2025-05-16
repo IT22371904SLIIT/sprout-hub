@@ -209,7 +209,7 @@ function AddAchievements() {
               <textarea
                 className="form-textarea"
                 style={{
-                  border: '1px solid #C5E1A6',
+                  border: '1px solid #C5E1A5',
                   color: '#8D6E63'
                 }}
                 name="description"
