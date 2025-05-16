@@ -180,7 +180,7 @@ function AllAchievements() {
             backgroundColor: 'rgba(249, 251, 231, 0.9)'
           },
           content: {
-            border: '1px solid #C5E1A6'
+            border: '1px solid #C5E1A5'
           }
         }}
       >
