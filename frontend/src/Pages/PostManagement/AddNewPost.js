@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import NavBar from '../../Components/NavBar/NavBar';
-import './AddNewPost.css'; // We'll create this CSS file
+import './AddNewPost.css'; // the css file for the addnewpost part
 
 function AddNewPost() {
   const [title, setTitle] = useState('');
@@ -46,7 +46,7 @@ function AddNewPost() {
         alert(`Unsupported file type: ${file.type}`);
         window.location.reload();
       }
-
+      
       previews.push({ type: file.type, url: URL.createObjectURL(file) });
     }
 
