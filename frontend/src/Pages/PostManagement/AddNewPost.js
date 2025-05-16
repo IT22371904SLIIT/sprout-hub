@@ -44,7 +44,7 @@ function AddNewPost() {
         };
       } else {
         alert(`Unsupported file type: ${file.type}`);
-        window.location.reload();
+        
       }
       
       previews.push({ type: file.type, url: URL.createObjectURL(file) });
