@@ -93,7 +93,7 @@ function AllPost() {
 
     try {
       await axios.delete(`http://localhost:8080/posts/${postId}`);
-      alert('Post deleted successfully!');
+      alert('Deleted the post successfully!');
       setPosts(posts.filter((post) => post.id !== postId));
       setFilteredPosts(filteredPosts.filter((post) => post.id !== postId));
     } catch (error) {
