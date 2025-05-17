@@ -313,7 +313,7 @@ function AllPost() {
             <div className="empty-state" style={{ color: '#8D6E63' }}>
               <div className="empty-icon"></div>
               <h3>Post section is empty</h3>
-              <p>Create a new post to share with the community</p>
+              <p>Create a new post to share with your community</p>
               <button 
                 className="primary-button" 
                 style={{ 
