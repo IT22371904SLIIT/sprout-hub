@@ -18,7 +18,7 @@ export const fetchUserDetails = async (userId) => {
         return null;
     }
 };
-
+//
 function UserProfile() {
     const [userData, setUserData] = useState(null);
     const [loading, setLoading] = useState(true);
