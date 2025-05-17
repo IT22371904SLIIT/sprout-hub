@@ -326,7 +326,7 @@ function MyAllPost() {
             filteredPosts.map((post) => (
               <div key={post.id} className="post-card" style={{
                 background: 'rgba(255, 255, 255, 0.9)',
-                border: '1px solid #C5E1A5'
+                border: '1px solid #C5E1A6'
               }}>
                 <div className="post-header">
                   <div className="user-info">
