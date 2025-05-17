@@ -22,7 +22,7 @@ function AddLearningPlan() {
   const [startDate, setStartDate] = useState('');
   const [endDate, setEndDate] = useState('');
   const [category, setCategory] = useState('');
-
+// const [time, setTime] = useState('');
   const handleImageChange = (e) => {
     const file = e.target.files?.[0] || e.dataTransfer?.files?.[0];
     if (file) {
