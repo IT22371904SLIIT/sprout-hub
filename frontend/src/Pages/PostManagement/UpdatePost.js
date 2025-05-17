@@ -214,7 +214,7 @@ function UpdatePost() {
             </div>
             
             <div className="form-group">
-              <label className="form-label" style={{ color: '#8D6E65' }}>Media</label>
+              <label className="form-label" style={{ color: '#8D6E63' }}>Media</label>
               {existingMedia.length > 0 && (
                 <div className="media-preview-container" style={{ marginBottom: '20px' }}>
                   {existingMedia.map((mediaUrl, index) => (
