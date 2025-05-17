@@ -142,7 +142,7 @@ function UpdatePost() {
   }
 
   return (
-    <div className="post-creation-page" style={{ background: '#F9FBE7' }}>
+    <div className="post-creation-page" style={{ background: '#F9FBE6' }}>
       <NavBar />
       <div className="post-creation-container" style={{ 
         marginTop: "80px",
