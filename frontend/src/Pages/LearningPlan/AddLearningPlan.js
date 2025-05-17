@@ -8,7 +8,7 @@ import NavBar from '../../Components/NavBar/NavBar';
 import { FaVideo } from "react-icons/fa";
 import { FaImage } from "react-icons/fa";
 import { HiCalendarDateRange } from "react-icons/hi2";
-
+// import { FaRegClock } from "react-icons/fa";
 function AddLearningPlan() {
   const [title, setTitle] = useState('');
   const [description, setDescription] = useState('');
