@@ -127,7 +127,7 @@ public class LearningPlanController {
     public void delete(@PathVariable String id) {
         learningPlanRepository.deleteById(id);
     }
-
+//
     @GetMapping("/learningPlan/planImages/{filename:.+}")
     public ResponseEntity<Resource> getImage(@PathVariable String filename) {
         try {
