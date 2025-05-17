@@ -21,7 +21,7 @@ function UpdateUserProfile() {
   const navigate = useNavigate();
   const [skillInput, setSkillInput] = useState('');
   const [isDragging, setIsDragging] = useState(false);
-//
+
   const handleAddSkill = () => {
     if (skillInput.trim()) {
       setFormData({ ...formData, skills: [...formData.skills, skillInput] });
