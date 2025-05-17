@@ -77,7 +77,7 @@ function UserProfile() {
                 {userData && userData.id === localStorage.getItem('userID') && (
                     <div className="profile-card" style={{ 
                         background: 'rgba(255, 255, 255, 0.9)',
-                        border: '1px solid #C5E1A56'
+                        border: '1px solid #C5E1A5'
                     }}>
                         <div className="profile-card-content">
                             <div className="profile-image-container" style={{ border: '3px solid #C5E1A5' }}>
