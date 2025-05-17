@@ -312,7 +312,7 @@ function AllPost() {
           {filteredPosts.length === 0 ? (
             <div className="empty-state" style={{ color: '#8D6E63' }}>
               <div className="empty-icon"></div>
-              <h3></h3>
+              <h3>Post section is empty</h3>
               <p>Create a new post to share with the community</p>
               <button 
                 className="primary-button" 
