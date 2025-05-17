@@ -96,7 +96,7 @@ function UserRegister() {
         }
         setCurrentStep(currentStep + 1);
     };
-
+//
     const prevStep = () => {
         setCurrentStep(currentStep - 1);
     };
