@@ -193,7 +193,7 @@ function UserRegister() {
             
             <div className={`glass-card ${isAnimated ? 'fade-in' : ''}`} style={{
                 background: 'rgba(255, 255, 255, 0.9)',
-                border: '1px solid #C5E1A59'
+                border: '1px solid #C5E1A5'
             }}>
                 <div className="card-left" style={{ background: 'rgba(141, 110, 99, 0.1)' }}>
                     <div className="brand-section">
