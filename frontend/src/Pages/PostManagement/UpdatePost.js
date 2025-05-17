@@ -202,7 +202,7 @@ function UpdatePost() {
               <textarea
                 className="form-textarea"
                 style={{
-                  border: '1px solid #C5E1A5',
+                  border: '1px solid #C5E1A6',
                   color: '#8D6E63'
                 }}
                 placeholder="What's on your mind?"
