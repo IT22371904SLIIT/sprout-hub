@@ -122,7 +122,7 @@ public class LearningPlanController {
                     return learningPlanRepository.save(learningPlanModel);
                 }).orElseThrow(() -> new ResourceNotFoundException(id));
     }
-//
+
     @DeleteMapping("/learningPlan/{id}")
     public void delete(@PathVariable String id) {
         learningPlanRepository.deleteById(id);
