@@ -19,7 +19,7 @@ export const fetchUserDetails = async (userId) => {
         return null;
     }
 };
-//
+
 function GoogalUserPro() {
     const [userData, setUserData] = useState(null);
     const navigate = useNavigate();
