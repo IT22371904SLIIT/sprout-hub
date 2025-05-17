@@ -151,7 +151,7 @@ function UserLogin() {
               onClick={() => (window.location.href = '/register')}
               style={{
                 color: '#4CAF50',
-                ':hover': { color: '#388E3C6' }
+                ':hover': { color: '#388E3C' }
               }}
             >
               Create an account
