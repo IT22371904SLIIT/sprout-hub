@@ -81,7 +81,7 @@ function AddNewPost() {
       window.location.href = '/myAllPost';
     } catch (error) {
       console.error(error);
-      alert('Failed to create post.');
+      alert('Failed to create a post.');
       window.location.reload();
     }
   };
