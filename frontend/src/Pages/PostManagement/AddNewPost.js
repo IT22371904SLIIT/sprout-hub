@@ -181,7 +181,7 @@ function AddNewPost() {
                 <div className="upload-icon">
                   <i className="fas fa-cloud-upload-alt"></i>
                 </div>
-                <p> <label className="file-label">
+                <p> Drag & drop your files here <label className="file-label">
                   browse
                   <input
                     type="file"
