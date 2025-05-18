@@ -66,7 +66,7 @@ function AllPost() {
       }
     };
 
-    fetchPosts();
+    fetchPosts(); //fetching 
   }, []);
 
   useEffect(() => {
