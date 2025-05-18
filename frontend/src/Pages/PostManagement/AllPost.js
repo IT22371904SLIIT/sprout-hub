@@ -175,7 +175,7 @@ function AllPost() {
       return;
     }
     try {
-      const response = await axios.post(`http://localhost:8080/posts/${postId}/comment`, {
+      const response = await axios.post(`http://localhost:8080/posts/${postId}/comment`, { //comment response
         userID,
         content,
       });
