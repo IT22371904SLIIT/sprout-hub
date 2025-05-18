@@ -166,7 +166,7 @@ function AllPost() {
   const handleAddComment = async (postId) => {
     const userID = localStorage.getItem('userID');
     if (!userID) {
-      alert('Please log in to comment to a post.');
+      alert('Please log in to the system comment to a post.');
       return;
     }
     const content = newComment[postId] || '';
