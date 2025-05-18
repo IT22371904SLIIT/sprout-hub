@@ -115,7 +115,7 @@ function AllPost() {
     setShowMyPosts(!showMyPosts);
   };
 
-  const handleLike = async (postId) => {
+  const handleLike = async (postId) => { //like part
     const userID = localStorage.getItem('userID');
     if (!userID) {
       alert('Please log in to like a post.');
