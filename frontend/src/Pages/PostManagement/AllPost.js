@@ -139,7 +139,7 @@ function AllPost() {
           post.id === postId ? { ...post, likes: response.data.likes } : post
         )
       );
-    } catch (error) { //error catching 
+    } catch (error) { //error catching and handling
       console.error('Error liking post:', error);
     }
   };
