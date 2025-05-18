@@ -198,7 +198,7 @@
   transform: translateX(4px);
 }
 
-/* For mobile screens */
+/* mobile screens */
 @media (max-width: 640px) {
   .post-form-card {
     padding: 1.5rem;
